@@ -52,7 +52,7 @@ void get_last_local_minimum(int** matrix, int n, int m, int* ii, int* jj) {
 		*jj = last_j + 1;
 	}
 	else {
-		*ii = 0
+		*ii = 0;
 		*jj = 0;
 	}
 }
