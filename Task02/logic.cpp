@@ -16,7 +16,7 @@ int sum_main_and_second_diagonales_elements(int** matrix, int n) {
 		if (matrix[i] == nullptr) {
 			return -1;
 		}
-		sum += matrix[i][j];
+		sum += matrix[i][i];
 
 		if (i != n - 1 - i) {
 			sum += matrix[i][n - 1 - i];
